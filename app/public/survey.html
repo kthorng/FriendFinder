@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<title>Friend Finder</title>
+
+  <!-- Latest compiled and minified CSS & JS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+                <div class="col-md-3">
+                </div>
+            <div class="col-md-6">
+
+        <h2>Survey Questions</h2>
+        <hr>
+            <form>
+            <!-- ABOUT YOU -->
+            <!-- ========================================================================================= -->
+            <h3><strong>About You</strong></h3>
+
+            <div class="form-group">
+                <h4>Name (Required)</h4>
+                <input type="text" id="name" class="form-control"/>
+            </div>
+
+            <div class="form-group">
+                <h4>Link to Photo Image (Required)</h4>
+                <input type="text" id="photo" class="form-control" />
+            </div>
+            <hr />
+
+            <!-- QUESTIONS -->
+            <!-- ========================================================================================= -->
+            <div class="questions" >
+                <h4>Question 1</h4>
+                <p>Can you tell when someone is sad?</p>
+                <select id="q1" class="form-control" style="width: 200px;">
+                    <option value="default">Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h4>Question 2</h4>
+                <p>Do you buckle under stress?</p>
+                <select id="q2" class="form-control" style="width: 200px;">
+                    <option value="default">Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h4>Question 3</h4>
+                <p>Are you a morning person?</p>
+                <select id="q3" class="form-control" style="width: 200px;">
+                    <option value="default">Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h4>Question 4</h4>
+                <p>Do you like being the center of attention?</p>
+                <select id="q4" class="form-control" style="width: 200px;">
+                    <option value="default">Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h4>Question 5</h4>
+                <p>Your living quarters are usually clean.</p>
+                <select id="q5" class="form-control" style="width: 200px;">
+                    <option value="default">Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h4>Question 6</h4>
+                <p>You consider yourself a leader.</p>
+                <select id="q6" class="form-control" style="width: 200px;">
+                    <option value="default">Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h4>Question 7</h4>
+                <p>Everything that you are in control of, needs to be perfect.</p>
+                <select id="q7" class="form-control" style="width: 200px;">
+                    <option value="default">Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h4>Question 8</h4>
+                <p>You enjoy speaking infront of huge crowds.</p>
+                <select id="q8" class="form-control" style="width: 200px;">
+                    <option value="default">Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions">
+                <h4>Question 9</h4>
+                <p>Do you fix things that are out of place in your house?</p>
+                <select id="q9" class="form-control" style="width: 200px;">
+                    <option value="default">Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <div class="questions0">
+                <h4>Question 10</h4>
+                <p>You usually execute plans that you make.</p>
+                <select id="q10" class="form-control" style="width: 200px;">
+                    <option value="default">Select an option</option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <br>
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-info btn-lg submit" id="submit" data-toggle="modal"><span class="glyphicon glyphicon-ok-sign"></span> Submit</button>
+        </form>
+
+        <hr />
+
+        <!-- FOOTER LINKS -->
+        <!-- ========================================================================================= -->
+        <div class="links">
+            <a href="/">Home Page</a> |
+            <a href="/api/friends">API Friends List</a> |
+            <a href="https://github.com/kthorng/FriendFinder">GitHub Repo</a>
+        </div>
+    </div> <!-- /.container -->
+</div>
+</div>
+    <!-- MODALS -->
+    <!-- ========================================================================================= -->
+    <!-- Form Validation Modal -->
+    <div class="modal fade" id="validator" tabindex="-1" role="dialog" aria-labelledby="validatorLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title"><strong>Error!</strong></h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="validatorLabel"></h4>
+                </div>
+                <div class="modal-body">
+                     <h4>All required feilds are not complete.</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Match Found Modal -->
+    <div id="results-modal" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+        
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2 class="modal-title"><strong>Best Match</strong></h2>
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body">
+                  <h2 id="match-name"></h2>
+                  <img id="match-img" src="#" alt="">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default close-clear" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+
+    <script>
+        
+    // Capture the form inputs
+    $("#submit").on("click", function(event) {
+      event.preventDefault();
+
+      // Form validation
+      function validateForm() {
+        var isValid = true;
+        $(".form-control").each(function() {
+          if ($(this).val() === "") {
+            isValid = false;
+          }
+        });
+
+        $(".form-control").each(function() {
+
+          if ($(this).val() === 'default') {
+            isValid = false;
+          }
+        });
+        return isValid;
+      }
+
+      // If all required fields are filled
+      if (validateForm()) {
+        // Create an object for the user"s data
+        var userData = {
+          name: $("#name").val(),
+          photo: $("#photo").val(),
+          scores: [
+            $("#q1").val(),
+            $("#q2").val(),
+            $("#q3").val(),
+            $("#q4").val(),
+            $("#q5").val(),
+            $("#q6").val(),
+            $("#q7").val(),
+            $("#q8").val(),
+            $("#q9").val(),
+            $("#q10").val()
+          ]
+        };
+
+        // AJAX post the data to the friends API.
+        $.post("/api/friends", userData, function(data) {
+
+          // Grab the result from the AJAX post so that the best match's name and photo are displayed.
+          $("#match-name").text(data.name);
+          $("#match-img").attr("src", data.photo);
+
+          // Show the modal with the best match
+          $("#results-modal").modal("toggle");
+
+        });
+    // clear out form
+    $('input').val('');
+    $('select').val('default');
+      } else {
+        $('#validator').modal('toggle');
+      }
+
+    });
+        
+    </script>
+</body>
+</html>

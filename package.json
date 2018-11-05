@@ -1,0 +1,29 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "Web based application to find the best matched friend for you.",
+  "main": "server.js",
+  "scripts": {
+    "test": "n/a",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kthorng/FriendFinder.git"
+  },
+  "keywords": [
+    "friendfinder",
+    "friend",
+    "finder"
+  ],
+  "author": "Keot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kthorng/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/kthorng/FriendFinder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  }
+}
