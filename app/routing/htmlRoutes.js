@@ -23,6 +23,10 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/survey.html"));
   });
 
+  app.get("/images/favicon", function(req, res) {
+    res.sendFile(path.join(__dirname, "../images/f.png"));
+  });
+
   // If no matching route is found default to home
   app.get("*", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/home.html"));
